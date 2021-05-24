@@ -1,6 +1,6 @@
 var Paulo = {nome:"Pedro",vitorias: 0,empate: 0,derrotas:0,pontos:0}
 var Rafa = {nome:"Henrique",vitorias: 0,empate: 0,derrotas:0,pontos:0}
-var daniel = {nome:"Daniel",vitorias: 0,empate: 0,derrotas:0,pontos:0}
+var Daniel = {nome:"Daniel",vitorias: 0,empate: 0,derrotas:0,pontos:0}
 
 function pontos(jogadorpontos){
   var pontos = (jogadorpontos.vitorias * 3) + jogadorpontos.empate
@@ -9,9 +9,9 @@ function pontos(jogadorpontos){
 
 Paulo.pontos = pontos(Paulo)
 Rafa.pontos = pontos(Rafa)
-daniel.pontos = pontos(daniel)
+Daniel.pontos = pontos(Daniel)
 
-var jogadores = [Paulo, Rafa, daniel]
+var jogadores = [Paulo, Rafa, Daniel]
 exibirjogadores(jogadores)
 function exibirjogadores(jogadores){
   var html = ""
